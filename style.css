@@ -1,0 +1,46 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* common css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    color: #FA804C;
+}
+.cus-btn{
+    background-image: linear-gradient(to top,#3D4FF3,#3543BC);
+    color: #fff;
+    padding: 18px 34px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+/* header */
+header{
+    background-color: #FFF9F4;
+}
+header h1{
+    font-size: 3rem;
+}
+.logo{
+    max-width:300px;
+}
+
+/* casual */
+.image{
+    Offset: 0px, 30px rgba(0, 0, 0, 0.15);
+    background-color:#F1F1F1;
+}
+.casual h1, .formal h1{
+    font-size: 2rem;
+}
+@media only screen and (max-width:768px) {
+    .banner .row{
+        flex-direction: column-reverse;
+    }
+    .service .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+} 
